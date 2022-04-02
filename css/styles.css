@@ -22,11 +22,9 @@ a:hover{
 }
 
 .container {
-    height: 100%;
     width: 100%;
-    max-width: 1200px;
-    padding-left: 120px;
-    padding-right: 120px;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 header {
@@ -52,7 +50,6 @@ nav.container {
 .social {
     display: inline-flex;
     gap: 10px;
-    width: 125px;
     height: 30px;
     justify-content: space-between;
     align-items: center;
@@ -84,7 +81,7 @@ nav.container {
 #home h2 {
     color: var(--color-white);
     padding-top: 20px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     font-size: 32px;
     font-weight: 700;
 
@@ -95,7 +92,7 @@ nav.container {
     background-color: var(--bg-gray);
     padding: 20px;
     border-radius: 8px;
-    height: 125px;
+    height: 127px;
     width: 960px;
  
 }
@@ -118,6 +115,7 @@ nav.container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 #modalities h2 {
@@ -160,7 +158,6 @@ footer {
     background-color: var(--color-black);
     color: var(--color-white);
     width: 1200px;
-    margin-top: 20px;
 }
 
 #footer-content {
@@ -174,6 +171,6 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 30px;
-    margin-top: 60px;
+    padding-bottom: 30px;
+    padding-top: 60px;
 }
