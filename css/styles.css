@@ -1,1 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-purple: #222374;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --bg-gray: #CCCCCC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a,
+a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 120px;
+    padding-right: 120px;
+    width: 960px;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+header h1 {
+    color: var(--color-white);
+}
+
+nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: inline-flex;
+    gap: 10px;
+    width: 125px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+.social p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+#home {
+    background-color: var(--color-purple);
+    height: 418px;
+    width: 1200px;
+}
+
+#home h2 {
+    color: var(--color-white);
+    padding-top: 20px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.home-card {
+    margin-bottom: 20px;
+    background-color: var(--bg-gray);
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+ 
+}
+
+.home-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.home-card p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#modalities {
+    background-color: var(--color-white);
+}
+
+
+#modalities h2 {
+    color: var(--color-red);
+    font-weight: 700;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#modalities .general-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modalities-card {
+    background-color: var(--color-purple);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.modalities-card h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-white);
+    padding-bottom: 20px;
+}
+
+.modalities-card p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer {
+    height: 262px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    width: 1200px;
+}
+
+#footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
