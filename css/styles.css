@@ -27,7 +27,6 @@ a:hover{
     max-width: 1200px;
     padding-left: 120px;
     padding-right: 120px;
-    width: 960px;
 }
 
 header {
@@ -47,6 +46,7 @@ nav.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 960px;
 }
 
 .social {
@@ -75,6 +75,10 @@ nav.container {
     background-color: var(--color-purple);
     height: 418px;
     width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #home h2 {
@@ -91,7 +95,8 @@ nav.container {
     background-color: var(--bg-gray);
     padding: 20px;
     border-radius: 8px;
-    display: inline-block;
+    height: 125px;
+    width: 960px;
  
 }
 
@@ -108,8 +113,12 @@ nav.container {
 
 #modalities {
     background-color: var(--color-white);
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
 
 #modalities h2 {
     color: var(--color-red);
@@ -130,6 +139,7 @@ nav.container {
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
+    width: 960px;
 }
 
 .modalities-card h3 {
@@ -142,6 +152,7 @@ nav.container {
 .modalities-card p {
     font-size: 14px;
     font-weight: 400;
+    color: var(--bg-gray);
 }
 
 footer {
@@ -149,6 +160,7 @@ footer {
     background-color: var(--color-black);
     color: var(--color-white);
     width: 1200px;
+    margin-top: 20px;
 }
 
 #footer-content {
@@ -156,4 +168,12 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+#footer-social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 60px;
 }
